@@ -39,17 +39,38 @@ const balance = 1000
 // }
 
 
-const userLoggedIn = true
-const debitCard = true
-const loggedInFromGoogle = false
-const loggedInFromEmail = true
+// const userLoggedIn = true
+// const debitCard = true
+// const loggedInFromGoogle = false
+// const loggedInFromEmail = true
 
-if(userLoggedIn && debitCard && 2 == 2){
-    console.log("Allow to buy course");
-}
+// if(userLoggedIn && debitCard && 2 == 2){
+//     console.log("Allow to buy course");
+// }
 
-if(loggedInFromEmail || loggedInFromGoogle){
-    console.log("User logged in")
-}
+// if(loggedInFromEmail || loggedInFromGoogle){
+//     console.log("User logged in")
+// }
 
+
+// Nullish Coalescing Operator (??): null undefined
+
+
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+// val1 = undefined ?? 15
+val1 = null ?? 10 ?? 15
+
+
+// console.log(val1);
+
+
+// Terniary Operator
+
+// condition ? true : false
+
+
+const iceTeaPrice = 100
+iceTeaPrice >= 80 ? console.log("less than 80") : console.log("more than 80");
 
